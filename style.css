@@ -1,0 +1,85 @@
+
+/* Imposta immagine sfondo e le sue proprietà*/
+body{
+  background-image: url(Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Imposta dimensioni, colore e posizione della box centralw*/
+.box{
+  box-sizing: border-box;
+  width: 63%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+  border-radius: 20px
+}
+
+/*Ridimensiona e centra logo*/
+#logo{
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+/*Imposta colore e dimensione sottotitolo*/
+#subtitle{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgba(0,255,0,1);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 5px;
+}
+
+/*Imposta colore e posizione container dei bottoni*/
+.buttons_container{
+  background-color: rgba(0,255,0,1);
+  text-align: center;
+  padding: 10px;
+}
+
+/*Imposta proprietà comuni a corpo, corpo2, corpo3*/
+.corpo, .corpo2, .corpo3{
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+/*Imposta font, font size e colore modello monopattino*/
+.model{
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+/*Imposta font, font size e colore indirizzo e livello carica*/
+.address, .loading{
+  font-family: "Roboto", sans-serif;
+  color: white;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+/*Imposta proprietà comuni delle barre di carica*/
+.carica, .carica2, .carica3{
+  height: 25px;
+  border-radius: 3px;
+}
+
+/*Imposta colore e dimensione di ogni barra di carica*/
+.carica{
+  background-color: rgba(295,191,0,1);
+  width: 35%;
+}
+
+.carica2{
+  background-color: rgba(0,255,0,1);
+  width: 60%;
+}
+
+.carica3{
+  background-color: rgba(205,92,92,1);
+  width: 15%;
+}
